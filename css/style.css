@@ -1,0 +1,35 @@
+* {
+    font-family: cursive;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+
+.quotes-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: #71C9CE;
+}
+
+.quote {
+    width: 50%;
+    text-align: center;
+}
+
+
+.quotes-section .quote #author {
+    font-style: italic;
+}
+
+.add-quote-button button {
+    padding: 5px 10px;
+    border: 2px solid grey;
+}
