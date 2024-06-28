@@ -39,6 +39,26 @@ var quotes = [
         'quote': "Do what you can, with what you have, where you are."
     },
 
+    {
+        'author': 'J.K. Rowling',
+        'quote': 'It is impossible to live without failing at something, unless you live so cautiously that you might as well not have lived at all – in which case, you fail by default'
+    },
+    {
+        'author': 'Maya Angelou',
+        'quote': 'You may encounter many defeats, but you must not be defeated. In fact, it may be necessary to encounter the defeats, so you can know who you are, what you can rise from, how you can still come out of it.'
+    },
+    {
+        'author': 'Jane Austen',
+        'quote': 'There is no charm equal to tenderness of heart.'
+    },
+    {
+        'author': 'Leo Tolstoy',
+        'quote': 'Everyone thinks of changing the world, but no one thinks of changing himself.'
+    },
+    {
+        'author': 'Helen Keller',
+        'quote': 'Alone we can do so little; together we can do so much.'
+    }
 ]
 
 
@@ -64,5 +84,6 @@ function sayAquote() {
     selectedAuthor.innerHTML = `~ ${quotes[randomNumber].author}`;
     selectedQuote.innerHTML = `❛${quotes[randomNumber].quote}❜`;
 }
+
 
 
